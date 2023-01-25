@@ -232,4 +232,39 @@ prevUntil() : Ngược lại với nextUntil
 
 ## **jQuery Ajax** ##
 
-[TÀI LIỆU THAM KHẢO](https://www.w3schools.com/jquery/jquery_ref_ajax.asp)
+[**TÀI LIỆU THAM KHẢO**](https://www.w3schools.com/jquery/jquery_ref_ajax.asp)
+
+## **JS Browser BOM** ##
+
+[**TÀI LIỀU THAM KHẢO**](https://www.w3schools.com/js/js_window.asp)
+
+## **Web APIs - Introduction** ##
+
+[**TÀI LIỀU THAM KHẢO**](https://www.w3schools.com/js/js_api_intro.asp)
+
+## **JS AJAX (Asynchronous JavaScript And XML)** ##
+
+- Đọc dữ liệu từ máy chủ web - sau khi trang đã được tải
+- Cập nhật trang web mà không cần tải lại trang
+- Gửi dữ liệu đến máy chủ web - ở chế độ nền
+
+![](https://www.w3schools.com/js/pic_ajax.gif)
+
+### **AJAX - The XMLHttpRequest Object** ###
+
+[**TÀI LIỀU THAM KHẢO**](https://www.w3schools.com/js/js_ajax_http.asp)
+
+## **JS JSON** ##
+
+### **JSON.parse() (Chuyển json sang đối tượng trong JS)** ###
+
+```js
+const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
+```
+
+### **JSON.stringify() (Chuyển đối tượng trong JS sang JSon)** ###
+
+```js
+const obj = {name: "John", age: 30, city: "New York"};
+const myJSON = JSON.stringify(obj);
+```
